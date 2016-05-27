@@ -1,0 +1,25 @@
+body{
+	background-color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	color: white;
+}
+
+.section{
+	background-color: rgb(9,53,91);
+}
+
+.section-title{
+	text-align: left;
+	font-weight: bold;
+}
+
+.section-concept{
+	background-color: rgb(215,235,253);
+}
+
