@@ -8,6 +8,7 @@
 
 body{
 	background-color: white;
+	font-style: Times;
 }
 
 h1{
@@ -16,6 +17,12 @@ h1{
 
 h2{
 	color: white;
+	text-align: left;
+	padding-top: 1%;
+}
+
+h3{
+	padding-top: 1%;
 }
 
 img{
@@ -27,14 +34,23 @@ img{
 	margin-right: 50px;
 }
 
-.pictures{
-	display: flex;
-	text-align: center; 
-	margin-left: 15%; 
+div{
+	padding-left: 1%;
+	padding-right: 1%;
 }
 
 .section{
 	background-color: rgb(9,53,91);
+	padding-bottom: 1%;
+	border-radius: 25px;
+}
+
+.pictures{
+	display: flex;
+	text-align: center; 
+	margin-right: auto
+	margin-left: auto;
+	padding-left: 15%;
 }
 
 .section-title{
@@ -44,5 +60,34 @@ img{
 
 .section-concept{
 	background-color: rgb(215,235,253);
+	padding-bottom: 1%;
+	border-radius: 10px;
 }
 
+.split-box{
+	display: flex;
+}
+
+.text{
+	width: 100%;
+}
+
+.boxmodel{
+	width: 100px;
+	height: 100px;
+	padding-bottom: 1%;
+}
+
+.split-box-left{
+	width: 1500px;
+	border-style: dashed;
+	border-width: 1px; 
+	margin-right: 25px;
+}
+
+.split-box-right{
+	width: 1500px;
+	border-style: dashed;
+	border-width: 1px; 
+	margin-right: 25px;
+}
