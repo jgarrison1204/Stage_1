@@ -58,7 +58,7 @@
       <div class="section-concept">
       <h3>Computers are stupid:</h3>
         <p>
-          There is a really <strong>cool</strong> way we explain why computers are stupid to kids.  I heard this on a podcast once. Have a
+          There is a really <b>cool</b> way we explain why computers are stupid to kids.  I heard this on a podcast once. Have a
           teacher pretend to be a <em>computer</em> that has to make a PB and J sandwhich. The teacher takes literal orders from the kids and
           makes a mess of things.  The kids <b>learn</b> that telling a computer to make a sandwhich is a complex and detailed task.
         </p>
@@ -75,11 +75,11 @@
       <h3>How websites work:</h3>
         <p>
           Three main languages are used to make responsive websites.  Think of it like building a house.
-          <ol type="1">
+          <ul type="1">
             <li><b>HTML</b>: which is like the structure of the house.</li>
             <li><b>CSS</b>: which is like the style of the house (e.g. what color are the walls).</li>
             <li><b>JavaScript</b>: which is like changing an element of the house (e.g. garage door opener)</li>
-          </ol>
+          </ul>
         </p>
       </div>
       <div class="section-concept">
@@ -92,18 +92,79 @@
           </p>
       </div>
       <div class="section-concept">
+      <a name="boxmodelimage"></a> 
       <h3>Everything Is A Box:</h3>
-        <p>
-          <span>HTML uses boxes for layout and structure.</span> Boxes are also useful for translating a design into code. They also make it easier to rearrange the layout on a website.
-          It’s a good idea once you get a mock-design to spec out how many boxes you want to use to design the page.
-          Use <b>&ltdiv&gt</b> tags to create “boxes” in HTML. Here is a <a href="http://www.w3schools.com/tags/tag_div.asp">resource</a> for understanding div tags a bit better.
-        </P>
+        <div class="split-box">
+          <div class="boxmodel">
+            <img src="Images/BoxModel.jpeg", alt="box model image">
+          </div>
+          <div class="text">
+            <p>
+              <span>HTML uses boxes for layout and structure.</span> Boxes are also useful for translating a design into code. They also make it easier to rearrange the layout on a website.
+              It’s a good idea once you get a mock-design to spec out how many boxes you want to use to design the page.
+              Use <b>&ltdiv&gt</b> tags to create “boxes” in HTML. Here is a <a href="http://www.w3schools.com/tags/tag_div.asp">resource</a> for understanding div tags a bit better.
+            </P>
+          </div>
+        </div>
       </div>
     </div>
     <div class="section"> 
       <h2><u>Lesson 3: CSS Basics</u></h2>
       <div class="section-concept">
-      <h3></h3>
+      <h3>Cascading Style Sheet (CSS) General Info</h3>
+      <div class="split-box">
+        <div class="split-box-left">
+            <p style="text-align: center; font-weight: bold;"> 
+              Starting a file:
+            </p> 
+            <p>
+              Link a style sheet to an html file we put “link” in the head section and enter the correct path to the css file.CSS the most specific rule is applied to every element. (e.g. the rules you make for your house would be the same as national rule).  This is what cascading refers to. 
+            </p>
+        </div>
+        <div class="split-box-right">
+          <p style="text-align: center; font-weight: bold;">
+            Steps:
+          </p>
+          <ul class="CSS-starting-points"> 
+            <li>First, writing a selector like an HTML tag.</li>
+            <li> If you wanted to apply a style to all paragraphs on a page you would do p { } and all paragraphs in the html layout would be styled.</li>
+            <li>Typically you use class as selector e.g. class=”test” then .test{ color: red;}</li>
+            <li>Or you can add a &lt style &gt inside &lt head &gt and write CSS in the &lt style> tag. We can also use &lt style &gt inside individual &lt div &gt. e.g.  &lt div style="background-color: red; color: white" &gt Now, what if I change my mind? &lt/div &gt</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="section-concept">
+        <h3>Displaying Divs Next To Each Other</h3>
+        <p>
+        For several elements to be next to each other change display value in the parent container to flex. <span style="font-style: italic; font-weight: 900;"> See an example below:</span>
+        <br><br> 
+        .app{<br>
+          display: -webkit-flex;<br>
+          display: flex;<br>
+        }
+        </p>
+      </div> 
+      <div class="section-concept">
+        <h3>Dev Tools and Verification</h3>
+        <p>
+          Dev tools are a cool way to manipulate code in the browser to experiment with styling without having to write code in a text editor.<br>
+          Verification allows you to make sure your HTML and CSS meets best practices in order to avoid throwing an error and preventing issues down the road.
+        </p>
+      </div>
+      <div class="section-concept">
+        <h3>The Box Model</h3>
+        <p>
+          <b>The Box Model:</b> 
+          HTML elements are considered boxes. The box model refers to the design and layout of a page. This CSS box model essentially wraps around HTML elements.
+          <ul>  
+            <li>Content-The content of a box, where text and images appear.</li> 
+            <li>Padding–Clears and area around the content. The padding is transparent.</li>
+            <li>Border–A border that goes around the padding and content.</li>
+            <li>Margin–space surrounding the border. The margin is transparent.</li>
+          </ul>
+          Here is a link to a box model <a href="#boxmodelimage">click here.</a> 
+        </p>
       </div>
     </div>
   </body>
