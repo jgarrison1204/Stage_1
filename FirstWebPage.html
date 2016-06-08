@@ -9,13 +9,13 @@
     <h1> Key Concepts: The Web, HTML and CSS</h1>
     <div class="pictures">
       <div class="screenshots">
-        <img src="Images/Around-the-web.jpg", alt="picture of the web.">
+        <img src="Images/Around-the-web.jpg" alt="picture of the web.">
       </div>  
       <div class="screenshots">
-        <img src="Images/html.jpg", alt="picture of html.">
+        <img src="Images/html.jpg" alt="picture of html.">
       </div>
       <div class="screenshots">
-        <img src="Images/css.jpg", alt="picture of css.">
+        <img src="Images/css.jpg" alt="picture of css.">
       </div>
 
     </div>
@@ -35,7 +35,6 @@
       <h2><u>Lesson 1: The Basics of the Web</u></h2>      
         <div class="section-concept">
         <h3>How the web works:</h3>
-          <p>
             There are three major components that makes the web work.
             <ol type="1">
               <li><em>Client</em> - computer and browser. Like the one I'm typing on.</li>
@@ -46,7 +45,6 @@
                 </ul>
               </li>
             </ol>
-          </p>
         </div>
       <div class="section-concept">
         <h3>HTML:</h3> 
@@ -61,11 +59,11 @@
           HTML documents are made up of these things called <b>elements</b>. <b>Elements</b> are written with a <b>start</b> tag, an <b>end</b> tag and
           <b>content</b> in between.  Here is a <a href="https://www.w3schools.com/html/html_elements.asp">link</a> about elements.<br>
           And here are some of the tags we've talked about so far:
-          <ul style="list-style-type:disc">
-            <li> <b>&ltdiv&gt</b> - creates a box that can hold content and other tags.</li>
-            <li> <b>&ltp&gt</b> - stands for paragraph and is a <b>block element</b> that creates margins before and after each tag.</li>
-          </ul>
         </p>
+        <ul style="list-style-type:disc">
+          <li> <b>&lt;div&gt;</b> - creates a box that can hold content and other tags.</li>
+          <li> <b>&lt;p&gt;</b> - stands for paragraph and is a <b>block element</b> that creates margins before and after each tag.</li>
+        </ul>
       </div>
       <div class="section-concept">
       <h3>Computers are stupid:</h3>
@@ -88,34 +86,34 @@
       <h3>How websites work:</h3>
         <p>
           Three main languages are used to make responsive websites.  Think of it like building a house.
-          <ul type="1">
-            <li><b>HTML</b>: which is like the structure of the house.</li>
-            <li><b>CSS</b>: which is like the style of the house (e.g. what color are the walls).</li>
-            <li><b>JavaScript</b>: which is like changing an element of the house (e.g. garage door opener)</li>
-          </ul>
         </p>
+        <ul>
+          <li><b>HTML</b>: which is like the structure of the house.</li>
+          <li><b>CSS</b>: which is like the style of the house (e.g. what color are the walls).</li>
+          <li><b>JavaScript</b>: which is like changing an element of the house (e.g. garage door opener)</li>
+        </ul>
       </div>
       <div class="section-concept">
         <h3>DOM:</h3>
-          <p>
-            Document Object Model -  a tree structure that is like the blue print for a webpage that can interact with elements in HTML.
-            <ul style="list-style-type:square">
-              <li>Here is a <a href="https://en.wikipedia.org/wiki/Document_Object_Model">link</a> to a wiki-article on DOM.</li>
-            </ul>
-          </p>
+        <p>
+          Document Object Model -  a tree structure that is like the blue print for a webpage that can interact with elements in HTML.
+        </p>
+        <ul style="list-style-type:square">
+          <li>Here is a <a href="https://en.wikipedia.org/wiki/Document_Object_Model">link</a> to a wiki-article on DOM.</li>
+        </ul>          
       </div>
       <div class="section-concept">
       <a name="boxmodelimage"></a> 
       <h3>Everything Is A Box:</h3>
         <div class="split-box">
           <div class="boxmodel">
-            <img src="Images/BoxModel.jpeg", alt="box model image">
+            <img src="Images/BoxModel.jpeg" alt="box model image">
           </div>
           <div class="text">
             <p>
               <span>HTML uses boxes for layout and structure.</span> Boxes are also useful for translating a design into code. They also make it easier to rearrange the layout on a website.
               It’s a good idea once you get a mock-design to spec out how many boxes you want to use to design the page.
-              Use <b>&ltdiv&gt</b> tags to create “boxes” in HTML. Here is a <a href="http://www.w3schools.com/tags/tag_div.asp">resource</a> for understanding div tags a bit better.
+              Use <b>&lt;div&gt;</b> tags to create “boxes” in HTML. Here is a <a href="http://www.w3schools.com/tags/tag_div.asp">resource</a> for understanding div tags a bit better.
             </P>
           </div>
         </div>
@@ -143,7 +141,7 @@
             <li>First, writing a selector like an HTML tag.</li>
             <li> If you wanted to apply a style to all paragraphs on a page you would do p { } and all paragraphs in the html layout would be styled.</li>
             <li>Typically you use class as selector e.g. class=”test” then .test{ color: red;}</li>
-            <li>Or you can add a &lt style &gt inside &lt head &gt and write CSS in the &lt style> tag. We can also use &lt style &gt inside individual &lt div &gt. e.g.  &lt div style="background-color: red; color: white" &gt Now, what if I change my mind? &lt/div &gt</li>
+            <li>Or you can add a &lt; style &gt; inside &lt; head &gt; and write CSS in the &lt; style> tag. We can also use &lt; style &gt; inside individual &lt; div &gt;. e.g.  &lt; div style="background-color: red; color: white" &gt; Now, what if I change my mind? &lt;/div &gt;</li>
           </ul>
         </div>
       </div>
@@ -171,12 +169,14 @@
         <p>
           <b>The Box Model:</b> 
           HTML elements are considered boxes. The box model refers to the design and layout of a page. This CSS box model essentially wraps around HTML elements.
+        </p>
           <ul>  
             <li>Content-The content of a box, where text and images appear.</li> 
             <li>Padding–Clears and area around the content. The padding is transparent.</li>
             <li>Border–A border that goes around the padding and content.</li>
             <li>Margin–space surrounding the border. The margin is transparent.</li>
           </ul>
+        <p>
           Here is a link to a box model <a href="#boxmodelimage">click here.</a> 
         </p>
       </div>

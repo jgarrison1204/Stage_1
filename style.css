@@ -1,14 +1,15 @@
 
 *{
-	-webkit-box-sizing: border_box;
-	-mo-box-sizing: border_box;
-	-webkit-box-sizing: border_box;
-	box-sizing: border_box;
+	-webkit-box-sizing: border-box;
+	-mo-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body{
 	background-color: white;
-	font-style: Times;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
 }
 
 h1{
@@ -55,7 +56,7 @@ div{
 .pictures{
 	display: flex;
 	text-align: center; 
-	margin-right: auto
+	margin-right: auto;
 	margin-left: auto;
 	padding-left: 13%;
 }
