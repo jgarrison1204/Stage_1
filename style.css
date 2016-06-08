@@ -39,6 +39,13 @@ div{
 	padding-right: 1%;
 }
 
+.link-to-lesson{
+	width: 250px;
+	height: 25px;
+	padding: 5px;
+	margin-left: 1%;
+	margin-right: 5.7%;
+}
 .section{
 	background-color: rgb(9,53,91);
 	padding-bottom: 1%;
@@ -50,7 +57,7 @@ div{
 	text-align: center; 
 	margin-right: auto
 	margin-left: auto;
-	padding-left: 15%;
+	padding-left: 13%;
 }
 
 .section-title{
