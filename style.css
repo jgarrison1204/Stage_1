@@ -1,32 +1,28 @@
-
-*{
+body {
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
 	-webkit-box-sizing: border-box;
 	-mo-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-body{
-	background-color: white;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 100%;
-}
-
-h1{
+h1 {
 	text-align: center;
 }
 
-h2{
+h2 {
 	color: white;
 	text-align: left;
 	padding-top: 1%;
 }
 
-h3{
+h3 {
 	padding-top: 1%;
 }
 
-img{
+img {
 	width: 250px;
 	height: 250px;
 	max-width: 100%;
@@ -35,65 +31,58 @@ img{
 	margin-right: 50px;
 }
 
-div{
+div {
 	padding-left: 1%;
 	padding-right: 1%;
 }
 
-.link-to-lesson{
+.link-to-lesson {
 	width: 250px;
 	height: 25px;
 	padding: 5px;
 	margin-left: 1%;
 	margin-right: 5.7%;
 }
-.section{
+.section {
 	background-color: rgb(9,53,91);
 	padding-bottom: 1%;
 	border-radius: 25px;
 }
 
-.pictures{
+.pictures {
 	display: flex;
 	text-align: center; 
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 13%;
+	justify-content: center;
 }
 
-.section-title{
-	text-align: left;
-	font-weight: bold;
-}
-
-.section-concept{
+.section-concept {
 	background-color: rgb(215,235,253);
 	padding-bottom: 1%;
 	border-radius: 10px;
 }
 
-.split-box{
+.split-box {
 	display: flex;
 }
 
-.text{
+.text {
 	width: 100%;
 }
 
-.boxmodel{
+.boxmodel {
 	width: 100px;
 	height: 100px;
 	padding-bottom: 1%;
 }
 
-.split-box-left{
+.split-box-left {
 	width: 1500px;
 	border-style: dashed;
 	border-width: 1px; 
 	margin-right: 25px;
 }
 
-.split-box-right{
+.split-box-right {
 	width: 1500px;
 	border-style: dashed;
 	border-width: 1px; 
